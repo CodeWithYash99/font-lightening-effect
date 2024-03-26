@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import './App.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+      <ul className='letters-container'>
+        <li className='letter-item'>
+          <input className='input-box' type='checkbox' />
+          <div className='letter'>F</div>
+        </li>
+        <li className='letter-item'>
+          <input className='input-box' type='checkbox' />
+          <div className='letter'>R</div>
+        </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>O</div>
+      </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>N</div>
+      </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>T</div>
+      </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>E</div>
+      </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>N</div>
+      </li>
+      <li className='letter-item'>
+        <input className='input-box' type='checkbox' />
+        <div className='letter'>D</div>
+      </li>
+    </ul>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
