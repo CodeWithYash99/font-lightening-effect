@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/font-lightening-effect/static/css/main.c80b4371.css",
+    "main.js": "/font-lightening-effect/static/js/main.53841889.js",
+    "index.html": "/font-lightening-effect/index.html",
+    "main.c80b4371.css.map": "/font-lightening-effect/static/css/main.c80b4371.css.map",
+    "main.53841889.js.map": "/font-lightening-effect/static/js/main.53841889.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80b4371.css",
+    "static/js/main.53841889.js"
+  ]
+}
